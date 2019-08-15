@@ -1,0 +1,15 @@
+{
+    "version": 3,
+    "mappings": "AKAA,AAAA,UAAU,CACV,gBAAgB,CAChB,IAAI,AAAC,CACD,OAAO,CAAE,CAAC,CACV,MAAM,CAAE,CAAC,CACZ",
+    "sources": [
+        "../scss/main.scss",
+        "../scss/helpers/_variables.scss",
+        "../scss/helpers/_fonts.scss",
+        "../scss/helpers/_buttons.scss",
+        "../scss/helpers/_icons.scss",
+        "../scss/pages/_allpages.scss",
+        "../scss/pages/_mediaqueries.scss"
+    ],
+    "names": [],
+    "file": "main.min.css"
+}

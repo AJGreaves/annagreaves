@@ -6,8 +6,15 @@
 }
 
 #logo {
+    background-image: url("../images/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
     height: 55px;
-    margin-left: 0.3rem;
+    width: 55px;
+    margin: 0.5rem;
+    padding-top: 1rem;
+    padding-left: 1.45rem;
+    font-size: 1rem;
 }
 
 .navbar {
@@ -16,6 +23,10 @@
 
 .navbar-toggler {
     margin-right: 0.5rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: $color1;
 }
 
 /* Background images */

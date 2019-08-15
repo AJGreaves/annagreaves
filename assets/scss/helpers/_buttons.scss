@@ -1,0 +1,18 @@
+.cta-btn {
+    background-color: transparent;
+    height: 50px;
+    margin-top: 2rem;
+    padding: 0 1.5rem;
+    -webkit-transition: 0.2s all ease-in-out 0.3s;
+    transition: 0.2s all ease-in-out 0.3s;
+}
+
+.cta-btn.dark-btn {
+    border: 1px solid #fff;
+    color: $color1;
+}
+
+.cta-btn.dark-btn:hover {
+    background-color: $color1-transparent;
+    color: #fff;
+}

@@ -1,0 +1,18 @@
+@media screen and (min-width: 768px) {
+    // lowers text to center of page on larger screens
+    .vertical-center {
+        top: 50%;
+    }
+    .hero-heading {
+        margin-left: 4rem;
+        text-align: left;
+        width: auto;
+        font-size: 5rem;
+    }
+    .hero-overlay {
+        text-align: left;
+    }
+    .cta-btn {
+        margin-left: 4rem;
+    }
+}

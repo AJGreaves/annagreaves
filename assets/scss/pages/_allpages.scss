@@ -34,6 +34,7 @@
 .hero-overlay {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
     
 }
 
@@ -47,4 +48,16 @@
 #homeHero {
     background-image: url('../images/backgrounds/desk.jpg');
     background-position: center 60%;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 35%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+
+.overlay-container {
+    width: 100%;
 }

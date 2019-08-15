@@ -3,10 +3,35 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.navbar {
+.navbar,
+.cta-btn {
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
+}
+
+.hero-heading {
+  font-family: "Vidaloka", serif;
+  text-align: center;
+}
+
+.cta-btn {
+  background-color: transparent;
+  height: 50px;
+  margin-top: 2rem;
+  padding: 0 1.5rem;
+  -webkit-transition: 0.2s all ease-in-out 0.3s;
+  transition: 0.2s all ease-in-out 0.3s;
+}
+
+.cta-btn.dark-btn {
+  border: 1px solid #fff;
+  color: #5eadbe;
+}
+
+.cta-btn.dark-btn:hover {
+  background-color: #5eacbea6;
+  color: #fff;
 }
 
 .container,
@@ -44,6 +69,7 @@ body {
 .hero-overlay {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
 }
 
 .hero-img {
@@ -56,5 +82,35 @@ body {
 #homeHero {
   background-image: url("../images/backgrounds/desk.jpg");
   background-position: center 60%;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 35%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.overlay-container {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .vertical-center {
+    top: 50%;
+  }
+  .hero-heading {
+    margin-left: 4rem;
+    text-align: left;
+    width: auto;
+    font-size: 5rem;
+  }
+  .hero-overlay {
+    text-align: left;
+  }
+  .cta-btn {
+    margin-left: 4rem;
+  }
 }
 /*# sourceMappingURL=main.css.map */

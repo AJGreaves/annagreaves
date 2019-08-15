@@ -2,8 +2,14 @@ body {
     font-family: $main-text;
 }
 
-.navbar {
+.navbar,
+.cta-btn {
     font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: 0.15rem;
+}
+
+.hero-heading {
+    font-family: $heading;
+    text-align: center;
 }

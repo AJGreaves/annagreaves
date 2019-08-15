@@ -41,6 +41,10 @@ body {
   margin: 0;
 }
 
+.full-height {
+  height: 100vh;
+}
+
 #logo {
   background-image: url("../images/logo.png");
   background-size: contain;
@@ -96,14 +100,30 @@ body {
   width: 100%;
 }
 
+/* Other images */
+.frame {
+  height: 50vh;
+  padding: 2rem;
+}
+
+#headshot {
+  background-image: url("../images/woman_computer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100%;
+}
+
 @media screen and (min-width: 768px) {
   .vertical-center {
     top: 50%;
   }
   .hero-heading {
-    margin-left: 4rem;
     text-align: left;
     width: auto;
+  }
+  h1.hero-heading {
+    margin-left: 4rem;
     font-size: 5rem;
   }
   .hero-overlay {
@@ -111,6 +131,11 @@ body {
   }
   .cta-btn {
     margin-left: 4rem;
+  }
+  /* Other images */
+  .frame {
+    height: 100vh;
+    padding: 2rem;
   }
 }
 /*# sourceMappingURL=main.css.map */

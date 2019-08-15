@@ -5,6 +5,10 @@
     margin: 0;
 }
 
+.full-height {
+    height: 100vh;
+}
+
 #logo {
     background-image: url("../images/logo.png");
     background-size: contain;
@@ -60,4 +64,17 @@
 
 .overlay-container {
     width: 100%;
+}
+
+/* Other images */
+.frame {
+    height: 50vh;
+    padding: 2rem;
+}
+#headshot {
+    background-image: url('../images/woman_computer.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100%;
 }

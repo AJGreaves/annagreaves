@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AKAA,AAAA,UAAU,CACV,gBAAgB,CAChB,IAAI,AAAC,CACD,OAAO,CAAE,CAAC,CACV,MAAM,CAAE,CAAC,CACZ,AAED,AAAA,KAAK,AAAC,CACF,MAAM,CAAE,IAAI,CACZ,WAAW,CAAE,MAAM,CACtB,AAED,AAAA,OAAO,AAAC,CACJ,OAAO,CAAE,CAAC,CACb,AAED,AAAA,eAAe,AAAC,CACZ,YAAY,CAAE,MAAM,CACvB",
+    "mappings": "AKAA,AAAA,UAAU,CACV,gBAAgB,CAChB,IAAI,AAAC,CACD,OAAO,CAAE,CAAC,CACV,MAAM,CAAE,CAAC,CACZ,AAED,AAAA,KAAK,AAAC,CACF,MAAM,CAAE,IAAI,CACZ,WAAW,CAAE,MAAM,CACtB,AAED,AAAA,OAAO,AAAC,CACJ,OAAO,CAAE,CAAC,CACb,AAED,AAAA,eAAe,AAAC,CACZ,YAAY,CAAE,MAAM,CACvB,AAID,AAAA,aAAa,AAAC,CACV,MAAM,CAAE,IAAI,CACZ,gBAAgB,CAAE,eAAkB,CAEvC,AAED,AAAA,SAAS,AAAA,CACL,MAAM,CAAE,KAAK,CACb,iBAAiB,CAAE,SAAS,CAC5B,eAAe,CAAE,KAAK,CACtB,QAAQ,CAAE,QAAQ,CACrB,AAED,AAAA,SAAS,AAAC,CACN,gBAAgB,CAAE,qCAAqC,CACvD,mBAAmB,CAAE,UAAU,CAClC",
     "sources": [
         "../scss/main.scss",
         "../scss/helpers/_variables.scss",
@@ -8,6 +8,7 @@
         "../scss/helpers/_buttons.scss",
         "../scss/helpers/_icons.scss",
         "../scss/pages/_allpages.scss",
+        "../scss/pages/_index.scss",
         "../scss/pages/_mediaqueries.scss"
     ],
     "names": [],

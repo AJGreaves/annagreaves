@@ -17,3 +17,23 @@
 .navbar-toggler {
     margin-right: 0.5rem;
 }
+
+/* Background images */
+
+.hero-overlay {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+
+.hero-img{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#homeHero {
+    background-image: url('../images/backgrounds/desk.jpg');
+    background-position: center 60%;
+}

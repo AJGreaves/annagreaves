@@ -107,4 +107,21 @@
     background-position: 100% center;
     margin: 2rem auto;
     text-align: center;
+    color: #fff;
+}
+
+.project-box-overlay {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.project-box p {
+    padding-top: 4rem;
+    font-size: 1rem;
+    font-family: $heading;
+}
+
+.project-box h4 {
+    text-transform: uppercase;
+    font-weight: bold;
 }

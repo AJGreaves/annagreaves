@@ -170,6 +170,23 @@ h3 {
   background-position: 100% center;
   margin: 2rem auto;
   text-align: center;
+  color: #fff;
+}
+
+.project-box-overlay {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.project-box p {
+  padding-top: 4rem;
+  font-size: 1rem;
+  font-family: "Vidaloka", serif;
+}
+
+.project-box h4 {
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 @media screen and (min-width: 768px) {

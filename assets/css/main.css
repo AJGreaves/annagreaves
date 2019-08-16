@@ -13,10 +13,6 @@ body {
   letter-spacing: 0.15rem;
 }
 
-.footer-nav-item {
-  margin: 1rem;
-}
-
 .hero-heading,
 .centred-heading,
 footer h3 {
@@ -246,6 +242,11 @@ footer a {
 footer a:hover {
   color: #77ccdf;
   text-decoration: none;
+}
+
+.footer-nav-item {
+  padding: 0.5rem;
+  font-size: 0.8rem;
 }
 
 /* Medium screens and up */

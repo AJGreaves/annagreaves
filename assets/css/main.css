@@ -234,7 +234,7 @@ footer {
 }
 
 footer a {
-  color: rgba(255, 255, 255, 0.5);
+  color: #fff;
   -webkit-transition: 0.2s all ease-in-out 0.3s;
   transition: 0.2s all ease-in-out 0.3s;
 }
@@ -247,6 +247,22 @@ footer a:hover {
 .footer-nav-item {
   padding: 0.5rem;
   font-size: 0.8rem;
+}
+
+small {
+  color: #5eacbea6;
+}
+
+.legal-links a {
+  font-size: 1rem;
+  padding: 1rem;
+  color: #5eacbea6;
+  font-weight: lighter;
+}
+
+.social-links a {
+  font-size: 1.5rem;
+  padding: 0.5rem;
 }
 
 /* Medium screens and up */

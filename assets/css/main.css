@@ -149,6 +149,7 @@ h3 {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  background-attachment: fixed;
 }
 
 #homeHero {

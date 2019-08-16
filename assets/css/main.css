@@ -44,9 +44,15 @@ h3 {
   color: #5eadbe;
 }
 
-.cta-btn.dark-btn:hover {
+.cta-btn.dark-btn:hover,
+.cta-btn.light-btn:hover {
   background-color: #5eacbea6;
   color: #fff;
+}
+
+.cta-btn.light-btn {
+  border: 1px solid #5eadbe;
+  color: #5eadbe;
 }
 
 .services-icons h3 {
@@ -79,7 +85,7 @@ h3 {
 }
 
 .full-height {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 #logo {

@@ -5,7 +5,8 @@ body {
 
 .navbar,
 .cta-btn,
-.services-wrapper h3 {
+.services-wrapper h3,
+.services-icons p {
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
@@ -19,6 +20,14 @@ body {
 
 h2 {
   font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2.3rem;
+}
+
+.services-icons p {
+  font-size: 0.8rem;
 }
 
 .cta-btn {
@@ -38,6 +47,21 @@ h2 {
 .cta-btn.dark-btn:hover {
   background-color: #5eacbea6;
   color: #fff;
+}
+
+.services-icons h3 {
+  font-size: 1.5rem;
+}
+
+.services-icons i {
+  font-size: 2.5rem;
+  color: #5eadbe;
+  margin: 1.5rem;
+  max-width: 180px;
+}
+
+.services-icons {
+  text-align: center;
 }
 
 .container,

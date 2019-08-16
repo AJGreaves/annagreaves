@@ -111,6 +111,13 @@ h3 {
 
 .navbar {
   padding: 0;
+  opacity: 1;
+  -webkit-transition: 0.2s all ease-in-out 0.3s;
+  transition: 0.2s all ease-in-out 0.3s;
+}
+
+.navbar.invisible {
+  opacity: 0;
 }
 
 .navbar-toggler {
@@ -157,7 +164,7 @@ h3 {
 .vertical-center {
   margin: 0;
   position: absolute;
-  top: 35%;
+  top: 50%;
   width: 90%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -267,9 +274,6 @@ small {
 
 /* Medium screens and up */
 @media screen and (min-width: 768px) {
-  .vertical-center {
-    top: 50%;
-  }
   .hero-heading {
     text-align: left;
     width: auto;
@@ -311,6 +315,14 @@ small {
   .project-box-overlay button {
     margin-left: 0;
     height: 40px;
+  }
+  .vertical-md-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    width: 90%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
   }
 }
 

@@ -32,6 +32,13 @@
 
 .navbar {
     padding: 0;
+    opacity: 1;
+    -webkit-transition: 0.2s all ease-in-out 0.3s;
+    transition: 0.2s all ease-in-out 0.3s;
+}
+
+.navbar.invisible {
+    opacity: 0;
 }
 
 .navbar-toggler {
@@ -80,7 +87,7 @@
 .vertical-center {
     margin: 0;
     position: absolute;
-    top: 35%;
+    top: 50%;
     width: 90%; // stops overflow
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);

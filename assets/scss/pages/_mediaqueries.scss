@@ -1,3 +1,4 @@
+/* Medium screens and up */
 @media screen and (min-width: 768px) {
     // Positions headings and buttons correctly on larger screens.
     .vertical-center {
@@ -22,4 +23,30 @@
         height: 100vh;
         padding: 2rem;
     }
+    /* Portfolio boxes */
+    .project-box-overlay {
+        opacity: 0;
+        -webkit-transition: 0.2s all ease-in-out 0.3s;
+        transition: 0.2s all ease-in-out 0.3s;
+    }
+    .project-box-overlay:hover {
+        opacity: 1;
+    }
+    .project-box-overlay button {
+        margin-left: 0;
+        height: 40px;
+    }
+}
+
+/* css for when user is on a touch screen,
+and therefore the hover effects on portfolio boxes would not work
+Shows buttons to click on images by default */
+@media (pointer: coarse) { 
+
+}
+
+/* css for when user has a mouse or track pad,
+and therefore the hover effects on portfolio boxes do work */
+@media (pointer: fine) { 
+
 }

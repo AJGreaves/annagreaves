@@ -1,8 +1,17 @@
+// Containers and sections
+
 .container, 
 .container-fluid,
 .row {
     padding: 0;
     margin: 0;
+}
+
+.dark-section {
+    background-color: #000;
+    color: white;
+    padding: 3rem 0;
+    min-height: 100vh;
 }
 
 .full-height {
@@ -31,6 +40,15 @@
 
 .navbar-dark .navbar-nav .nav-link {
     color: $color1;
+}
+
+.services-wrapper h3 {
+    color: $color1;
+}
+
+.services-wrapper {
+    margin: 2rem;
+    text-align: center;
 }
 
 /* Background images */

@@ -6,14 +6,20 @@ body {
 .navbar,
 .cta-btn,
 .services-wrapper h3,
-.services-icons p {
+.services-icons p,
+.footer-nav-item {
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
 }
 
+.footer-nav-item {
+  margin: 1rem;
+}
+
 .hero-heading,
-.centred-heading {
+.centred-heading,
+footer h3 {
   font-family: "Vidaloka", serif;
   text-align: center;
 }
@@ -41,18 +47,25 @@ h3 {
 
 .cta-btn.dark-btn {
   border: 1px solid #fff;
-  color: #5eadbe;
+  color: #77ccdf;
 }
 
 .cta-btn.dark-btn:hover,
-.cta-btn.light-btn:hover {
+.cta-btn.light-btn:hover,
+.cta-btn.lighter-btn:hover {
   background-color: #5eacbea6;
   color: #fff;
 }
 
 .cta-btn.light-btn {
-  border: 1px solid #5eadbe;
-  color: #5eadbe;
+  border: 1px solid #77ccdf;
+  color: #77ccdf;
+  margin-top: 1.5rem;
+}
+
+.cta-btn.lighter-btn {
+  border: 1px solid #fff;
+  color: #77ccdf;
 }
 
 .services-icons h3 {
@@ -61,7 +74,7 @@ h3 {
 
 .services-icons i {
   font-size: 2.5rem;
-  color: #5eadbe;
+  color: #77ccdf;
   margin: 1.5rem;
   max-width: 180px;
 }
@@ -109,11 +122,11 @@ h3 {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: #5eadbe;
+  color: #77ccdf;
 }
 
 .services-wrapper h3 {
-  color: #5eadbe;
+  color: #77ccdf;
 }
 
 .services-wrapper {
@@ -140,7 +153,7 @@ h3 {
   background-position: center 60%;
 }
 
-#passionHero {
+#ctaHero {
   background-image: url("../images/backgrounds/desk_cafe.jpg");
   background-position: center 60%;
 }
@@ -149,12 +162,17 @@ h3 {
   margin: 0;
   position: absolute;
   top: 35%;
+  width: 90%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 
 .overlay-container {
   width: 100%;
+}
+
+.light-background {
+  background-color: #e1f0f3;
 }
 
 /* Other images */
@@ -213,6 +231,23 @@ h3 {
   font-weight: bold;
 }
 
+/* footer */
+footer {
+  background-color: #000;
+  color: white;
+}
+
+footer a {
+  color: rgba(255, 255, 255, 0.5);
+  -webkit-transition: 0.2s all ease-in-out 0.3s;
+  transition: 0.2s all ease-in-out 0.3s;
+}
+
+footer a:hover {
+  color: #77ccdf;
+  text-decoration: none;
+}
+
 /* Medium screens and up */
 @media screen and (min-width: 768px) {
   .vertical-center {
@@ -228,6 +263,16 @@ h3 {
   }
   .hero-overlay {
     text-align: left;
+  }
+  #ctaHero h3,
+  #ctaHero h4 {
+    margin-left: 4rem;
+  }
+  #ctaHero h3 {
+    font-size: 3.5rem;
+  }
+  #ctaHero h4 {
+    font-size: 2rem;
   }
   .cta-btn {
     margin-left: 4rem;

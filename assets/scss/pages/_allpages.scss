@@ -72,7 +72,7 @@
     background-position: center 60%;
 }
 
-#passionHero {
+#ctaHero {
     background-image: url('../images/backgrounds/desk_cafe.jpg');
     background-position: center 60%;
 }
@@ -81,12 +81,17 @@
     margin: 0;
     position: absolute;
     top: 35%;
+    width: 90%; // stops overflow
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
 }
 
 .overlay-container {
     width: 100%;
+}
+
+.light-background {
+    background-color: #e1f0f3;
 }
 
 /* Other images */
@@ -143,4 +148,21 @@
 .project-box h4 {
     text-transform: uppercase;
     font-weight: bold;
+}
+
+/* footer */
+footer {
+    background-color: #000;
+    color: white;
+}
+
+footer a {
+    color: rgba(255, 255, 255, 0.5);
+    -webkit-transition: 0.2s all ease-in-out 0.3s;
+    transition: 0.2s all ease-in-out 0.3s;
+}
+
+footer a:hover {
+    color: $color1;
+    text-decoration: none;
 }

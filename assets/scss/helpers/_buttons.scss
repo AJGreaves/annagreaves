@@ -13,12 +13,19 @@
 }
 
 .cta-btn.dark-btn:hover,
-.cta-btn.light-btn:hover {
+.cta-btn.light-btn:hover,
+.cta-btn.lighter-btn:hover {
     background-color: $color1-transparent;
     color: #fff;
 }
 
 .cta-btn.light-btn {
     border: 1px solid $color1;
+    color: $color1;
+    margin-top: 1.5rem;
+}
+
+.cta-btn.lighter-btn {
+    border: 1px solid #fff;
     color: $color1;
 }

@@ -7,7 +7,16 @@ app = Flask(__name__)
 # Home page
 @app.route('/')
 def home_page():
-    return render_template('index.html')
+    return render_template(
+        'index.html',
+        active='home')
+
+# Contact page
+@app.route('/contact')
+def contact_page():
+    return render_template(
+        'contact.html',
+        active='contact')
 
 
 if __name__ == '__main__':

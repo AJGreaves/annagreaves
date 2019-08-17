@@ -39,17 +39,17 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto mr-3">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <li class="nav-item {% if active == 'home' %}active{% endif %}">
+                    <a class="nav-link " href="{{url_for('home_page')}}">Home {% if active == 'home' %}<span class="sr-only">(current)</span>{% endif %}</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
+                <li class="nav-item {% if active == 'portfolio' %}active{% endif %}">
+                    <a class="nav-link" href="#">Portfolio {% if active == 'portfolio' %}<span class="sr-only">(current)</span>{% endif %}</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                <li class="nav-item {% if active == 'about' %}active{% endif %}">
+                    <a class="nav-link" href="#">About {% if active == 'about' %}<span class="sr-only">(current)</span>{% endif %}</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                <li class="nav-item {% if active == 'contact' %}active{% endif %}">
+                    <a class="nav-link" href="{{url_for('contact_page')}}">Contact {% if active == 'contact' %}<span class="sr-only">(current)</span>{% endif %}</a>
                 </li>
             </ul>
         </div>
@@ -67,10 +67,10 @@
                 </div>
                 <nav id="footer-nav" class="col-12" data-content-field="navigation">
                     <div class="footer-nav-group mb-3">
-                        <a class="footer-nav-item" href="#" aria-label="Home">Home</a>
+                        <a class="footer-nav-item" href="{{url_for('home_page')}}" aria-label="Home">Home</a>
                         <a class="footer-nav-item" href="#" aria-label="Portfolio">Portfolio</a>
                         <a class="footer-nav-item" href="#" aria-label="About">About</a>
-                        <a class="footer-nav-item" href="#" aria-label="Contact">Contact</a>
+                        <a class="footer-nav-item" href="{{url_for('contact_page')}}" aria-label="Contact">Contact</a>
                     </div>
                 </nav>
                 <div class="col-12">

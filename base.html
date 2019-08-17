@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- meta data -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description"
+        content="Web design and development expert available for freelance website management and consultation.">
+    <meta name="keywords"
+        content="web design website creation planning production web developer front end developer back end developer full stack developer Amsterdam Netherlands">
+    <meta name="author" content="Anna Greaves">
+
+    <!-- favicon files -->
+    <link rel="icon" type="image/png" sizes="32x32" href="{{url_for('static', filename='images/favicons/favicon_32x32.png')}}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{url_for('static', filename='images/favicons/favicon_16x16.png')}}">
+
+    <!-- style sheets -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/main.css')}}" type="text/css" />
+
+    <!-- page title -->
+    <title>Contact | inSiteful Web Design & Development</title>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+        <a class="navbar-brand" href="#">
+            <img id="logo" src="{{url_for('static', filename='images/logo.png')}}" alt="A Greaves Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mr-3">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+        <!-- Main content -->
+        {% block content %} {% endblock %}
+
+    
+    <!-- Footer -->
+    <footer class="container-fluid py-5">
+            <div class="row text-center">
+                <div class="col-12 pb-3">
+                    <h3>Beautiful. Intuative. inSiteful.</h3>
+                </div>
+                <nav id="footer-nav" class="col-12" data-content-field="navigation">
+                    <div class="footer-nav-group mb-3">
+                        <a class="footer-nav-item" href="#" aria-label="Home">Home</a>
+                        <a class="footer-nav-item" href="#" aria-label="Portfolio">Portfolio</a>
+                        <a class="footer-nav-item" href="#" aria-label="About">About</a>
+                        <a class="footer-nav-item" href="#" aria-label="Contact">Contact</a>
+                    </div>
+                </nav>
+                <div class="col-12">
+                    <small>© 2019 Anna Greaves. All rights reserved. Freelance Web Designer & Developer.</small>
+                    <div class="legal-links py-3">
+    
+                        <a href="#">Terms</a>
+                        <a href="#">Privacy</a>
+    
+                    </div>
+    
+                </div>
+                <div class="col-12 my-3 social-links">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </footer>
+    
+        <!-- scripts -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/popper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="{{url_for('static', filename='js/main.js')}}"></script>
+    </body>
+    
+    </html>

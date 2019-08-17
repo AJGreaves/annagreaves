@@ -18,6 +18,12 @@ def contact_page():
         'contact.html',
         active='contact')
 
+@app.route('/portfolio')
+def portfolio_page():
+    return render_template(
+        'portfolio.html',
+        active='portfolio')
+
 
 if __name__ == '__main__':
     app.run(host=os.getenv('IP'), port=os.getenv('PORT'), debug=True)

@@ -201,6 +201,11 @@ h3 {
   background-position: center 60%;
 }
 
+#contactPortfolio {
+  background-image: url("../images/backgrounds/notepad.jpg");
+  background-position: center 60%;
+}
+
 #map {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);

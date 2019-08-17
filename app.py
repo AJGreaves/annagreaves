@@ -20,6 +20,7 @@ def contact_page():
         active='contact',
         title="Contact")
 
+# Portfolio page
 @app.route('/portfolio')
 def portfolio_page():
     return render_template(
@@ -27,6 +28,12 @@ def portfolio_page():
         active='portfolio',
         title="Portfolio")
 
+@app.route('/portfolio/familyhub')
+def portfolio_familyhub():
+    return render_template(
+    'projects/familyhub.html',
+    active="portfolio",
+    title="Portfolio | Family Hub")
 
 if __name__ == '__main__':
     app.run(host=os.getenv('IP'), port=os.getenv('PORT'), debug=True)

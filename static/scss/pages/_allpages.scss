@@ -198,6 +198,21 @@
     font-weight: bold;
 }
 
+.project img {
+    max-height: 66vh;
+    max-width: 100%;
+}
+
+.project-intro {
+    min-height: 100vh;
+    position: relative;
+    padding: 2rem;
+}
+
+.devices-demo {
+    padding: 2rem;
+}
+
 /* footer */
 footer {
     background-color: #000;

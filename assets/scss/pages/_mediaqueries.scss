@@ -51,6 +51,17 @@
         -webkit-transform: translateY(-50%);
                 transform: translateY(-50%);
     }
+    
+}
+
+// x-large screens
+@media screen and (min-width: 1200px) {
+
+    .pitch-container,
+    .portfolio-section-container {
+        margin-top: 6%;
+    }
+    
 }
 
 /* css for when user is on a touch screen,

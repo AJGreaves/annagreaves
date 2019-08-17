@@ -139,7 +139,7 @@ h3 {
 
 .pitch-container,
 .portfolio-section-container {
-  margin-top: 5%;
+  margin-top: 3%;
 }
 
 .pitch-section {
@@ -333,6 +333,13 @@ small {
     width: 90%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .pitch-container,
+  .portfolio-section-container {
+    margin-top: 6%;
   }
 }
 

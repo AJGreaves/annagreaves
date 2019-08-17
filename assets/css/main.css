@@ -325,7 +325,7 @@ small {
 }
 
 iframe {
-  width: 98.4vw;
+  width: 95vw;
   height: 50vh;
   margin: auto;
 }
@@ -381,6 +381,9 @@ iframe {
     width: 90%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
+  }
+  iframe {
+    width: 98vw;
   }
 }
 

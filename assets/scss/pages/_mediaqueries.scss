@@ -51,7 +51,9 @@
         -webkit-transform: translateY(-50%);
                 transform: translateY(-50%);
     }
-    
+    iframe {
+        width: 98vw; //needed to stop overflow on mobiles
+    }
 }
 
 // xx-large screens

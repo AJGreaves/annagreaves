@@ -124,6 +124,7 @@
     height: 50vh;
     padding: 2rem;
 }
+
 #headshot {
     background-image: url('../images/woman_computer.jpg');
     background-repeat: no-repeat;
@@ -228,7 +229,7 @@ small {
 }
 
 iframe {
-    width: 98.4vw;
+    width: 95vw; //needed to stop overflow on mobiles
     height: 50vh;
     margin: auto;
 }

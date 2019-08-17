@@ -9,20 +9,23 @@ app = Flask(__name__)
 def home_page():
     return render_template(
         'index.html',
-        active='home')
+        active='home',
+        title="Home")
 
 # Contact page
 @app.route('/contact')
 def contact_page():
     return render_template(
         'contact.html',
-        active='contact')
+        active='contact',
+        title="Contact")
 
 @app.route('/portfolio')
 def portfolio_page():
     return render_template(
         'portfolio.html',
-        active='portfolio')
+        active='portfolio',
+        title="Portfolio")
 
 
 if __name__ == '__main__':

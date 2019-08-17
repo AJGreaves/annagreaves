@@ -194,6 +194,15 @@ h3 {
   background-position: center 60%;
 }
 
+#map {
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-image: url("../images/backgrounds/map.jpg");
+  background-position: center center;
+}
+
 .vertical-center {
   margin: 0;
   position: absolute;
@@ -271,6 +280,7 @@ h3 {
 footer {
   background-color: #000;
   color: white;
+  min-height: 50vh;
 }
 
 footer a {

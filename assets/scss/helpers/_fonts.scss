@@ -7,7 +7,8 @@ body {
 .services-wrapper h3,
 .services-icons p,
 .footer-nav-item,
-#pitch h3 {
+#pitch h3,
+#contact a {
     font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: 0.15rem;
@@ -16,7 +17,9 @@ body {
 .hero-heading,
 .centred-heading,
 footer h3,
-#pitch h2 {
+#pitch h2,
+#contact h3,
+#contact h4 {
     font-family: $heading;
     text-align: center;
 }
@@ -36,4 +39,13 @@ h3 {
 .highlight-text,
 #pitch h3 {
     color: $color1-darker;
+}
+
+#contact h3 {
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+#contact h4 {
+    font-size: 1.5rem;
 }

@@ -8,7 +8,8 @@ body {
 .services-wrapper h3,
 .services-icons p,
 .footer-nav-item,
-#pitch h3 {
+#pitch h3,
+#contact a {
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
@@ -17,7 +18,9 @@ body {
 .hero-heading,
 .centred-heading,
 footer h3,
-#pitch h2 {
+#pitch h2,
+#contact h3,
+#contact h4 {
   font-family: "Vidaloka", serif;
   text-align: center;
 }
@@ -37,6 +40,15 @@ h3 {
 .highlight-text,
 #pitch h3 {
   color: #438796;
+}
+
+#contact h3 {
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+#contact h4 {
+  font-size: 1.5rem;
 }
 
 .cta-btn {
@@ -144,6 +156,12 @@ h3 {
 
 .pitch-section {
   padding: 2rem;
+}
+
+.contact-section {
+  margin: 1rem;
+  padding: 2rem;
+  border: 1px solid #77ccdf;
 }
 
 /* Background images */
@@ -285,6 +303,19 @@ small {
 .social-links a {
   font-size: 1.5rem;
   padding: 0.5rem;
+}
+
+#contact a {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: #77ccdf;
+  -webkit-transition: 0.2s all ease-in-out 0.3s;
+  transition: 0.2s all ease-in-out 0.3s;
+}
+
+#contact a:hover {
+  color: #438796;
+  text-decoration: none;
 }
 
 /* Medium screens and up */

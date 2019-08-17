@@ -60,6 +60,12 @@
     padding: 2rem;
 }
 
+.contact-section {
+    margin: 1rem;
+    padding: 2rem;
+    border: 1px solid $color1;
+}
+
 /* Background images */
 
 .hero-overlay {
@@ -202,3 +208,17 @@ small {
     font-size: 1.5rem;
     padding: 0.5rem;
 }
+
+#contact a {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: $color1;
+    -webkit-transition: 0.2s all ease-in-out 0.3s;
+    transition: 0.2s all ease-in-out 0.3s;
+}
+
+#contact a:hover {
+    color: $color1-darker;
+    text-decoration: none;
+}
+

@@ -195,12 +195,8 @@ h3 {
 }
 
 #map {
-  height: 50vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  background-image: url("../images/backgrounds/map.jpg");
-  background-position: center center;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 .vertical-center {
@@ -326,6 +322,12 @@ small {
 #contact a:hover {
   color: #438796;
   text-decoration: none;
+}
+
+iframe {
+  width: 98.4vw;
+  height: 50vh;
+  margin: auto;
 }
 
 /* Medium screens and up */

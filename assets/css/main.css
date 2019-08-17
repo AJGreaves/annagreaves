@@ -171,6 +171,11 @@ h3 {
   background-position: center 60%;
 }
 
+#contactHero {
+  background-image: url("../images/backgrounds/connect.jpg");
+  background-position: center 60%;
+}
+
 .vertical-center {
   margin: 0;
   position: absolute;
@@ -336,7 +341,7 @@ small {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 2000px) {
   .pitch-container,
   .portfolio-section-container {
     margin-top: 6%;

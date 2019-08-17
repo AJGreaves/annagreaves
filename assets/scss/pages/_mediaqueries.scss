@@ -54,9 +54,9 @@
     
 }
 
-// x-large screens
-@media screen and (min-width: 1200px) {
-
+// xx-large screens
+@media screen and (min-width: 2000px) {
+    // pushes top of content down to center it better.
     .pitch-container,
     .portfolio-section-container {
         margin-top: 6%;

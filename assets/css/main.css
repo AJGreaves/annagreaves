@@ -118,11 +118,9 @@ h3 {
 
 #logo {
   height: 55px;
-  margin: 0.3rem 1rem;
 }
 
 .navbar {
-  padding: 0;
   opacity: 1;
   -webkit-transition: 0.2s all ease-in-out 0.3s;
   transition: 0.2s all ease-in-out 0.3s;

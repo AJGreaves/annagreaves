@@ -7,7 +7,8 @@ body {
 .cta-btn,
 .services-wrapper h3,
 .services-icons p,
-.footer-nav-item {
+.footer-nav-item,
+#pitch h3 {
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
@@ -15,7 +16,8 @@ body {
 
 .hero-heading,
 .centred-heading,
-footer h3 {
+footer h3,
+#pitch h2 {
   font-family: "Vidaloka", serif;
   text-align: center;
 }
@@ -30,6 +32,11 @@ h3 {
 
 .services-icons p {
   font-size: 0.8rem;
+}
+
+.highlight-text,
+#pitch h3 {
+  color: #438796;
 }
 
 .cta-btn {
@@ -135,6 +142,15 @@ h3 {
 .services-wrapper {
   margin: 2rem;
   text-align: center;
+}
+
+.pitch-container,
+.portfolio-section-container {
+  margin-top: 5%;
+}
+
+.pitch-section {
+  padding: 2rem;
 }
 
 /* Background images */

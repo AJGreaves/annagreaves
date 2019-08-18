@@ -1,0 +1,91 @@
+{% extends 'base.html' %} {% block content %}
+<main class="project">
+    <section class="container-fluid light-background">
+        <div class="row no-gutters">
+            <div class="col-12">
+                <div class="container mx-auto">
+                    <div class="row">
+                        <div class="col-12 project-intro">
+                            <div class="vertical-center">
+                                <h1 class="project-heading">Anna Gilhespy</h1>
+                                <p>A comprehensive website for a traditional portrait artist based in Amsterdam, The
+                                    Netherlands. Website features a promotional video, testimonials, a gallery of the
+                                    artist's work, an about page, pricing tables, a clear step-by-step guide to ordering
+                                    and a contact page. The primary goal of the website is to lead potential customers
+                                    to making first contact with the artist via the contact page.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="project-screenshots" class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="container mx-auto">'
+                    <div class="row no-gutters">
+                        <div class="col-12">
+                            <!-- Top image multi-devices -->
+                            <img src="https://i.ibb.co/vPmKnWQ/multi-device.jpg"
+                                alt="Image of website on multiple screen sizes">
+                        </div>
+                        <!-- first column -->
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-12">
+                                    <!-- 2nd image home page -->
+                                    <img src="https://i.ibb.co/MhzpmY1/home.png"
+                                        alt="Full-length screen capture of home page">
+                                </div>
+                                <div class="col-12">
+                                    <!-- 4th image gallery -->
+                                    <img src="https://i.ibb.co/PCDzmjD/gallery.png"
+                                        alt="Full-length screen capture of gallery page">
+                                </div>
+                                <div class="col-12">
+                                    <!-- 6th image contact page -->
+                                        <img src="https://i.ibb.co/qFkNXtS/contact.png"
+                                        alt="Full-length screen capture of contact page"> 
+                                </div>
+                            </div>
+                        </div>
+                        <!-- second column -->
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-12">
+                                    <!-- 3rd image about page -->
+                                    <img src="https://i.ibb.co/Wcp7S23/about.png"
+                                        alt="Full-length screen capture of about page">
+                                </div>
+                                <div class="col-12">
+                                    <!-- 5th image new pricing page -->
+                                    <img src="https://i.ibb.co/Qm5rMSk/pricing.png"
+                                        alt="Full-length screen capture of pricing page">
+                                </div>
+                                <div class="col-12">
+                                    <!-- 7th image order page -->
+                                    <img src="https://i.ibb.co/f1h2hK3/order.png"
+                                    alt="Full-length screen capture of how to order page">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 text-center">
+                            <a href="{{url_for('portfolio_page')}}">
+                                <button type="button" href="#" class="cta-btn mb-5">
+                                    Back to portfolio page
+                                    <i class="fas fa-long-arrow-alt-right"></i>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+</main>
+
+{% endblock %}

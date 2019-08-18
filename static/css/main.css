@@ -227,6 +227,7 @@ h3 {
 
 .vertical-center {
   margin: 0;
+  padding: 2rem;
   position: absolute;
   top: 50%;
   width: 90%;
@@ -312,11 +313,14 @@ h3 {
 .project-intro {
   min-height: 100vh;
   position: relative;
-  padding: 2rem;
+  min-height: 100vh;
 }
 
 .devices-demo {
   padding: 2rem;
+  background-color: #fff;
+  min-height: 100vh;
+  position: relative;
 }
 
 /* footer */

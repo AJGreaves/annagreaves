@@ -319,7 +319,7 @@ h3 {
   min-height: 100vh;
 }
 
-#portfolio .project-box {
+.project-box {
   -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }

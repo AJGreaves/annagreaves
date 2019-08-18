@@ -93,6 +93,16 @@ h3 {
   color: #77ccdf;
 }
 
+#project-screenshots button {
+  border: 1px solid #77ccdf;
+  color: #438796;
+}
+
+#project-screenshots button:hover {
+  background-color: #5eacbea6;
+  color: #fff;
+}
+
 .services-icons h3 {
   font-size: 1.5rem;
 }

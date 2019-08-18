@@ -43,7 +43,7 @@
                     <a class="nav-link " href="{{url_for('home_page')}}">Home {% if active == 'home' %}<span class="sr-only">(current)</span>{% endif %}</a>
                 </li>
                 <li class="nav-item {% if active == 'portfolio' %}active{% endif %}">
-                    <a class="nav-link" href="#">Portfolio {% if active == 'portfolio' %}<span class="sr-only">(current)</span>{% endif %}</a>
+                    <a class="nav-link" href="{{url_for('portfolio_page')}}">Portfolio {% if active == 'portfolio' %}<span class="sr-only">(current)</span>{% endif %}</a>
                 </li>
                 <li class="nav-item {% if active == 'about' %}active{% endif %}">
                     <a class="nav-link" href="#">About {% if active == 'about' %}<span class="sr-only">(current)</span>{% endif %}</a>
@@ -67,7 +67,7 @@
                 <nav id="footer-nav" class="col-12" data-content-field="navigation">
                     <div class="footer-nav-group mb-3">
                         <a class="footer-nav-item" href="{{url_for('home_page')}}" aria-label="Home">Home</a>
-                        <a class="footer-nav-item" href="#" aria-label="Portfolio">Portfolio</a>
+                        <a class="footer-nav-item" href="{{url_for('portfolio_page')}}" aria-label="Portfolio">Portfolio</a>
                         <a class="footer-nav-item" href="#" aria-label="About">About</a>
                         <a class="footer-nav-item" href="{{url_for('contact_page')}}" aria-label="Contact">Contact</a>
                     </div>

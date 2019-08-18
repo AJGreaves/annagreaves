@@ -165,24 +165,18 @@
     color: #fff;
 }
 
-#project1,
-#project4,
-#project7 {
+#project1 {
     background-image: url('https://annagilhespy.com/wp-content/uploads/2019/02/about3.jpg');
     background-position: 100% center;
 }
 
-#project2,
-#project5,
-#project8 {
+#project2 {
     background-image: url("https://i.ibb.co/y8bx9BL/kidswim.jpg");
     background-position: center;
 }
 
-#project3,
-#project6,
-#project9 {
-    background-image: url("https://i.ibb.co/mB8syq9/elsevierlogo-580x358.png");
+#project3 {
+    background-image: url("https://images.slideplayer.com/26/8705799/slides/slide_2.jpg");
     background-position: center;
 }
 
@@ -207,6 +201,11 @@
     min-height: 100vh;
     position: relative;
     min-height: 100vh;
+}
+
+#portfolio .project-box {
+    -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 .devices-demo {

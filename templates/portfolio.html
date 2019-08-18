@@ -20,7 +20,7 @@
     <div class="row">
         <div class="col-12">
             <div class="container mx-auto portfolio-container">
-                <div class="row">
+                <div class="row justify-content-center">
                     <div class="col-12">
                         <h2 class="hero-heading text-center d-lg-none">I'm a web developer with decades of design &
                             business experience.</h2>
@@ -39,7 +39,7 @@
                             <div class="project-box-overlay">
                                 <p>Artist Portfolio</p>
                                 <h4>Anna Gilhespy</h4>
-                                <a href="#">
+                                <a href="{{url_for('portfolio_annagilhespy')}}">
                                     <button type="button" class="cta-btn dark-btn">View Project</button>
                                 </a>
                                 
@@ -53,7 +53,7 @@
                                 <p>Kids Events & Activities</p>
                                 <h4>Family Hub</h4>
                                 <a href="{{url_for('portfolio_familyhub')}}">
-                                    <button type="button" href="#" class="cta-btn dark-btn">View Project</button>
+                                    <button type="button" class="cta-btn dark-btn">View Project</button>
                                 </a>
                                 
                             </div>
@@ -63,8 +63,11 @@
                         <div id="project3" class="project-box">
                             <div class="project-box-overlay">
                                 <p>Learning Environment Demo</p>
-                                <h4>Elsevier</h4>
-                                <button type="button" href="#" class="cta-btn dark-btn">View Project</button>
+                                <h4>ClinicalKey</h4>
+                                <a href="{{url_for('portfolio_clinicalkey')}}">
+                                    <button type="button" class="cta-btn dark-btn">View Project</button>
+                                </a>
+                                
                             </div>
                         </div>
                     </div>

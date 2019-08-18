@@ -203,11 +203,6 @@
     font-weight: bold;
 }
 
-.project img {
-    max-height: 66vh;
-    max-width: 100%;
-}
-
 .project-intro {
     min-height: 100vh;
     position: relative;
@@ -219,6 +214,14 @@
     background-color: #fff;
     min-height: 100vh;
     position: relative;
+}
+
+#project-screenshots img {
+    width: 100%;
+    margin: 1rem 0.5rem;
+    pointer-events: none;
+    -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 /* footer */

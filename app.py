@@ -42,5 +42,12 @@ def portfolio_annagilhespy():
                 active="portfolio",
                 title="Portfolio | Anna Gilhespy")
 
+@app.route('/portfolio/clinicalkey')
+def portfolio_clinicalkey():
+        return render_template(
+                'projects/clinicalkey.html',
+                active="portfolio",
+                title="Portfolio | ClinicalKey")
+
 if __name__ == '__main__':
         app.run(host=os.getenv('IP'), port=os.getenv('PORT'), debug=True)

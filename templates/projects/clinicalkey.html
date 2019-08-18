@@ -1,0 +1,79 @@
+{% extends 'base.html' %} {% block content %}
+<main class="project">
+    <section class="container-fluid light-background">
+        <div class="row no-gutters">
+            <div class="col-12">
+                <div class="container mx-auto">
+                    <div class="row">
+                        <div class="col-12 project-intro">
+                            <div class="vertical-center">
+                                <h1 class="project-heading">ClinicalKey</h1>
+                                <p>ClinicalKey offer training software for medical students to practice examination
+                                    questions. The purpose of this application is to use at conferences, to demonstrate
+                                    their medical study learning environment and collect contact details for follow-ups.
+                                </p>
+
+                                <p>The application consists of 3 multiple choice questions and a sign-up form.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="project-screenshots" class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="container mx-auto">'
+                    <div class="row no-gutters">
+                        <div class="col-12">
+                            <img src="https://i.ibb.co/3FYQw46/start.png"
+                                alt="Full-length screen capture of application start page">
+                        </div>
+                        <div class="col-12">
+                            <img src="https://i.ibb.co/F7vbc3v/question1.png"
+                                alt="Full-length screen capture of question 1">
+                        </div>
+                        <div class="col-12">
+                            <img src="https://i.ibb.co/9sXsyKW/question1answer.png"
+                                alt="Full-length screen capture of question 1 with answers">
+                        </div>
+                        <div class="col-12">
+                            <img src="https://i.ibb.co/2YLyyFw/question2.png"
+                                alt="Full-length screen capture of question 2">
+                        </div>
+                        <div class="col-12">
+                            <img src="https://i.ibb.co/sjK3Ms8/question2answer.png"
+                                alt="Full-length screen capture of question 2 with answers">
+                        </div>
+                        <div class="col-12">
+                                <img src="https://i.ibb.co/pzJqw0w/question3.png"
+                                    alt="Full-length screen capture of question 3">
+                            </div>
+                            <div class="col-12">
+                                <img src="https://i.ibb.co/6R0FrfB/question3answer.png"
+                                    alt="Full-length screen capture of question 3 with answers">
+                            </div>
+                        <div class="col-12">
+                            <img src="https://i.ibb.co/ScRLzFj/end.png"
+                                alt="Full-length screen capture of end page & sign up form">
+                        </div>
+                        <div class="col-12 text-center">
+                            <a href="{{url_for('portfolio_page')}}">
+                                <button type="button" href="#" class="cta-btn mb-5">
+                                    Back to portfolio page
+                                    <i class="fas fa-long-arrow-alt-right"></i>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+</main>
+
+{% endblock %}

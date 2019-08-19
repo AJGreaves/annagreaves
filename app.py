@@ -49,5 +49,12 @@ def portfolio_clinicalkey():
                 active="portfolio",
                 title="Portfolio | ClinicalKey")
 
+@app.route('/portfolio/picflip')
+def portfolio_picflip():
+        return render_template(
+                'projects/picflip.html',
+                active="portfolio",
+                title="Portfolio | PicFlip!")
+
 if __name__ == '__main__':
         app.run(host=os.getenv('IP'), port=os.getenv('PORT'), debug=True)

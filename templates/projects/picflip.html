@@ -1,0 +1,73 @@
+{% extends 'base.html' %} {% block content %}
+<main class="project">
+    <section class="container-fluid light-background">
+        <div class="row no-gutters">
+            <div class="col-12">
+                <div class="container mx-auto">
+                    <div class="row">
+                        <div class="col-12 project-intro">
+                            <div class="vertical-center">
+                                <h1 class="project-heading">PicFlip!</h1>
+                                <p>PicFlip! was an engaging and entertaining memory card game I created as part of my
+                                    student project, designed for children aged between 1 and 5 years old. Features
+                                    include easy to operate controls, 3 levels of difficulty, entertaining animations
+                                    and sounds, characters that children enjoy, with an overall feel of child friendly
+                                    entertainment.
+                                </p>
+                                <a href="https://ajgreaves.github.io/picflip/" target="_blank">
+                                    <button type="button" href="#" class="cta-btn lighter-btn ml-0 mb-5">
+                                        Play PicFlip!
+                                        <i class="fas fa-long-arrow-alt-right"></i>
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="project-screenshots" class="container-fluid">
+        <div class="row no-gutters">
+            <div class="col-12">
+                <div class="container mx-auto">'
+                    <div class="row no-gutters">
+                        <div class="col-12 text-center">
+                            <img src="https://i.ibb.co/vPRQtm6/multi-device.png"
+                                alt="Game on multiple screen sizes">
+                        </div>
+                        <div class="col-12 text-center">
+                            <img src="https://i.ibb.co/gJ3RMLw/welcome.png"
+                                alt="Game welcome page">
+                        </div>
+                        <div class="col-12 text-center">
+                            <img src="https://i.ibb.co/4VFzmpG/playing.png"
+                                alt="Game screen">
+                        </div>
+                        <div class="col-12 text-center">
+                            <img src="https://i.ibb.co/rtmQqLw/how-play.png"
+                                alt="How to play modal">
+                        </div>
+                        <div class="col-12 text-center">
+                            <img src="https://i.ibb.co/g9GR9MB/win.png"
+                                alt="Win modal">
+                        </div>
+                        <div class="col-12 text-center">
+                            <a href="{{url_for('portfolio_page')}}">
+                                <button type="button" href="#" class="cta-btn mb-5">
+                                    Back to portfolio page
+                                    <i class="fas fa-long-arrow-alt-right"></i>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+</main>
+
+{% endblock %}

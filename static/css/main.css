@@ -425,9 +425,6 @@ iframe {
   #ctaHero h4 {
     font-size: 2rem;
   }
-  .cta-btn {
-    margin-left: 4rem;
-  }
   /* Other images */
   .frame {
     height: 100vh;
@@ -466,6 +463,9 @@ iframe {
   }
   .project-heading {
     font-size: 3.5rem;
+  }
+  .ml-md-4rem {
+    margin-left: 4rem;
   }
 }
 

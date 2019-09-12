@@ -10,14 +10,5 @@ serif;
 $color1: #77ccdf;
 $color1-transparent: #5eacbea6;
 $color1-darker: #438796;
-$nav-color: $color1;
-
-@function set-text-color($nav-color) {
-    @if (lightness($nav-color) > 40) {
-        @return #000;
-    }
-
-    @else {
-        @return $color1;
-    }
-}
+$nav-active: #bfd6db;
+$off-white: #f0f0f0;

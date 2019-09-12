@@ -33,10 +33,6 @@
     color: $color1;
 }
 
-.nav-item.active {
-    color: $nav-color;
-}
-
 .services-wrapper h3 {
     color: $color1;
 }
@@ -231,6 +227,10 @@
     pointer-events: none;
     -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.bg-off-white {
+    background-color: $off-white;
 }
 
 /* footer */

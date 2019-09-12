@@ -431,14 +431,6 @@ iframe {
     padding: 2rem;
   }
   /* Portfolio boxes */
-  .project-box-overlay {
-    opacity: 0;
-    -webkit-transition: 0.2s all ease-in-out 0.3s;
-    transition: 0.2s all ease-in-out 0.3s;
-  }
-  .project-box-overlay:hover {
-    opacity: 1;
-  }
   .project-box-overlay button {
     margin-left: 0;
     height: 40px;
@@ -479,6 +471,21 @@ iframe {
 /* css for when user is on a touch screen,
 and therefore the hover effects on portfolio boxes would not work
 Shows buttons to click on images by default */
-/* css for when user has a mouse or track pad,
-and therefore the hover effects on portfolio boxes do work */
+@media (hover: none) {
+  .project-box-overlay {
+    opacity: 1;
+  }
+}
+
+/* hides portfolio overlay on devices that can hover */
+@media (hover: hover) {
+  .project-box-overlay {
+    opacity: 0;
+    -webkit-transition: 0.2s all ease-in-out 0.3s;
+    transition: 0.2s all ease-in-out 0.3s;
+  }
+  .project-box-overlay:hover {
+    opacity: 1;
+  }
+}
 /*# sourceMappingURL=main.css.map */

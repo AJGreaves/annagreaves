@@ -152,6 +152,10 @@ h3 {
   color: #77ccdf;
 }
 
+.nav-item.active {
+  color: #77ccdf;
+}
+
 .services-wrapper h3 {
   color: #77ccdf;
 }

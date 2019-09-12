@@ -26,11 +26,11 @@
             <div class="container mx-auto my-5">
                 <div class="row text-center justify-content-around">
                     <div class="col-12 pitch-section">
-                        <h2 class="hero-heading d-md-none">You have a big idea, <br>
-                            a mission that is <br>
-                            close to your heart.</h2>
-                        <h2 class="hero-heading d-none d-md-block">You have a big idea, <br>
-                            a mission that is close to your heart.</h2>
+                        <h2 class="hero-heading d-md-none">You have a big idea, a mission that is close to your heart.</h2>
+                        <h2 class="hero-heading d-none d-md-block">
+                            You have a big idea, <br>
+                            a mission that is close to your heart.
+                        </h2>
                     </div>
                     <div class="col-12 col-md-6 pitch-section">
                         <h3>You already have a website</h3>
@@ -189,8 +189,8 @@
                             </div>
                         </div>
                     </div>
-                    <!-- This column hidden on medium screens -->
-                    <div class="col-12 col-lg-4 d-md-none d-lg-block">
+                    <!-- This column hidden on phones because website was not built to be viewed from mobile -->
+                    <div class="col-12 col-lg-4 d-none d-lg-block">
                         <div id="project3" class="project-box">
                             <div class="project-box-overlay">
                                 <p>Learning Environment Demo</p>
@@ -264,8 +264,11 @@
         <heading id="ctaHero" class="col-12 hero-img">
             <div class="hero-overlay">
                 <div class="overlay-container vertical-center text-white p-3">
-                    <h3 class="hero-heading">Need help from an expert<br> in both
+                    <h3 class="hero-heading d-none d-md-block">Need help from an expert<br> in both
                         website design <br>& development?
+                    </h3>
+                    <h3 class="hero-heading-smaller d-md-none">Need help from an expert in both
+                        website design & development?
                     </h3>
                     <h4>Lets discuss your needs in detail.</h4>
                     <a href="{{url_for('contact_page')}}">

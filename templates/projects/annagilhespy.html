@@ -1,25 +1,20 @@
 {% extends 'base.html' %} {% block content %}
 <main class="project">
-    <section class="container-fluid light-background">
+
+    <!-- Hero / heading -->
+    <div class="container-fluid">
         <div class="row no-gutters">
-            <div class="col-12">
-                <div class="container mx-auto">
-                    <div class="row">
-                        <div class="col-12 project-intro">
-                            <div class="vertical-center">
-                                <h1 class="project-heading">Anna Gilhespy</h1>
-                                <p>A comprehensive website for a traditional portrait artist based in Amsterdam, The
-                                    Netherlands. Website features a promotional video, testimonials, a gallery of the
-                                    artist's work, an about page, pricing tables, a clear step-by-step guide to ordering
-                                    and a contact page. The primary goal of the website is to lead potential customers
-                                    to making first contact with the artist via the contact page.</p>
-                            </div>
-                        </div>
+            <heading id="project1Hero" class="col-12 hero-img">
+                <div class="hero-overlay">
+                    <div class="overlay-container vertical-center text-white">
+                        <h1 class="project-heading text-white hero-heading">Anna Gilhespy</h1>
+                        <p class="ml-md-4rem">A comprehensive website for a traditional portrait artist<br>based in Amsterdam, The
+                            Netherlands.</p>
                     </div>
                 </div>
-            </div>
+            </heading>
         </div>
-    </section>
+    </div>
 
     <section id="project-screenshots" class="container-fluid">
         <div class="row">
@@ -30,6 +25,12 @@
                             <!-- Top image multi-devices -->
                             <img src="https://i.ibb.co/vPmKnWQ/multi-device.jpg"
                                 alt="Image of website on multiple screen sizes">
+                        </div>
+                        <div class="col-12">
+                            <p class="text-center my-5">This website features a promotional video, testimonials, a gallery of the
+                                artist's work, an about page, pricing tables, a clear step-by-step guide to ordering
+                                and a contact page. The primary goal of the website is to lead potential customers
+                                to making first contact with the artist via the contact page.</p>
                         </div>
                         <!-- first column -->
                         <div class="col-6">
@@ -46,8 +47,8 @@
                                 </div>
                                 <div class="col-12">
                                     <!-- 6th image contact page -->
-                                        <img src="https://i.ibb.co/qFkNXtS/contact.png"
-                                        alt="Full-length screen capture of contact page"> 
+                                    <img src="https://i.ibb.co/qFkNXtS/contact.png"
+                                        alt="Full-length screen capture of contact page">
                                 </div>
                             </div>
                         </div>
@@ -67,17 +68,24 @@
                                 <div class="col-12">
                                     <!-- 7th image order page -->
                                     <img src="https://i.ibb.co/f1h2hK3/order.png"
-                                    alt="Full-length screen capture of how to order page">
+                                        alt="Full-length screen capture of how to order page">
                                 </div>
                             </div>
                         </div>
                         <div class="col-12 text-center">
+                            <a class="cta-btn mb-5" href="https://ajgreaves.github.io/portrait-artist/" target="_blank" rel="noopener" aria-label="Visit the Anna Gilhespy website (opens in a new tab)">
+                                <button type="button" class="cta-btn mb-5">
+                                    Visit live site
+                                    <i class="fas fa-long-arrow-alt-right"></i>
+                                </button>
+                            </a>
                             <a href="{{url_for('portfolio_page')}}">
-                                <button type="button" href="#" class="cta-btn mb-5">
+                                <button type="button" class="cta-btn mb-5">
                                     Back to portfolio page
                                     <i class="fas fa-long-arrow-alt-right"></i>
                                 </button>
                             </a>
+
                         </div>
                     </div>
                 </div>

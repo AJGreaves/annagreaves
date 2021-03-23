@@ -104,6 +104,10 @@ h3 {
   color: #fff;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 .services-icons h3 {
   font-size: 1.5rem;
 }
@@ -222,6 +226,11 @@ h3 {
 
 #contactHero {
   background-image: url("../images/backgrounds/connect.jpg");
+  background-position: center 60%;
+}
+
+#project1Hero {
+  background-image: url("../images/about3.jpg");
   background-position: center 60%;
 }
 
